@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aim Training | Проект 5</title>
+  </head>
+  <body>
+
+    <div class="screen">
+      <h1>Putin Shooter</h1>
+      <a href="#" class="start" id="start">Play game</a>
+    </div>
+
+    <div class="screen">
+      <h1>Choose time</h1>
+      <ul class="time-list" id="timeChoose">
+        <li>
+          <button class="time-btn" data-time="10">
+            10 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="20">
+            20 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="30">
+            30 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="60">
+            60 sec
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <h3>Lost <span class="primary" id="time">00:00</span></h3>
+      <div class="board" id="board">
+
+      </div>
+    </div>
+
+    <span class="totalScore primary" id="totalScoreSpan">0</span>
+
+    <script src="common.js"></script>
+
+  </body>
+</html>
